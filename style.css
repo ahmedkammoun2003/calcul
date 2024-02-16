@@ -12,6 +12,7 @@ td{
     width: 5vw;
     height: 8vh;
     text-align: center;
+    min-width: 70px;
 }
 table{
     margin-top: 7%;
@@ -23,4 +24,5 @@ button{
     font-size: 1.5em;
     width: 5vw;
     height: 8vh;
+    min-width: 70px;
 }
