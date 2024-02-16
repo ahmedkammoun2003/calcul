@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="9" id="result"></td>
+        </tr>
+        <tr>
+            <td colspan="4"><button onclick="resete()">CANCEL</button></td>
+            <td colspan="2"><button onclick="del()">DEL</button></td>
+            <td colspan="3"><button onclick="addch('/')">/</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="addch('7')">7</button></td>
+            <td colspan="2"><button onclick="addch('8')">8</button></td>
+            <td colspan="2"><button onclick="addch('9')">9</button></td>
+            <td colspan="3"><button onclick="addch('*')">*</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="addch('4')">4</button></td>
+            <td colspan="2"><button onclick="addch('5')">5</button></td>
+            <td colspan="2"><button onclick="addch('6')">6</button></td>
+            <td colspan="3"><button onclick="addch('-')">-</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="addch('1')">1</button></td>
+            <td colspan="2"><button onclick="addch('2')">2</button></td>
+            <td colspan="2"><button onclick="addch('3')">3</button></td>
+            <td colspan="3"><button onclick="addch('+')">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="addch('**')">**</button></td>
+            <td colspan="2"><button onclick="addch('0')">0</button></td>
+            <td colspan="2"><button onclick="addch('00')">00</button></td>
+            <td colspan="3"><button onclick="addch('%')">%</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="addch(',')">,</button></td>
+            <td colspan="2"><button onclick="addch('(')">(</button></td>
+            <td colspan="2"><button onclick="addch(')')">)</button></td>
+            <td colspan="3"><button onclick="result()">=</button></td>
+        </tr>
+    </table>
+    <script src="calculator.js"></script>
+</body>
+</html>
